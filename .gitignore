@@ -1,0 +1,50 @@
+# Ignore virtual environment
+asl_env/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment settings and config
+.env
+.env.*
+
+# Ignore compiled C extensions (optional)
+*.pyd
+
+# Ignore models or datasets you don't want to push
+*.h5
+*.pt
+*.onnx
+*.pb
+*.tflite
+
+# Ignore media/output files if needed
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Optional: exclude any build artifacts
+build/
+dist/
